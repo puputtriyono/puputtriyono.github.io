@@ -1,0 +1,38 @@
+<html> 
+    <style>
+        button{height: 80px;
+            width: 500px;
+           background-color: bisque;
+           margin-right: 100px;
+         }
+         button:hover{
+            background-color: rgb(251, 180, 74);
+            transition: 0,8s;
+         }
+         body{
+            background-color: aqua;
+            text-align: center;  
+         }
+         img{
+            height: 300px;
+            width:  300px;
+         }
+    </style>
+    <body>
+       <h1>Halo Bestieee sepertinya mood kamu lagi gak bagussss</h1>
+       <img src="https://p16-va.lemon8cdn.com/tos-alisg-v-a3e477-sg/ocBBohDFFAlRdy0QAtZaECG9neZEIQAfgmMsdE~tplv-tej9nj120t-origin.webp">
+       <h1>Are You Okayyy</h1>
+       <a href="experimen1.html"><button id='btn_YES' onclick='allert("I < 3 U")'>YES aku lagi bete nihhh</button>&nbsp;</a>
+       <button id='btn_NO' onclick='NO(this)'
+        style='position : absolute' >NO</button>
+    </body>
+    <script>
+        function NO(id){
+            var YES = document.getElementById('btn_YES');
+            var I = Math.floor(Math.random()*500)+1;
+            var J = Math.floor(Math.random()*300)+YES.offsetTop;
+            id.style.left = I+"px";
+            id.style.top = J+"px";
+        }
+    </script>
+</html>
